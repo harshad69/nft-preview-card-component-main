@@ -27,7 +27,7 @@ body {
     width: 320px;
     margin: auto;
     box-shadow: 2px 5px 10px black;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: hsl(216, 50%, 16%);
 }
 
@@ -61,27 +61,63 @@ body {
     color: hsl(215, 51%, 70%);
 }
 
+/* eth days left div */
+.eth_day_div {
+    margin-top: 7px;
+}
 
 .eth_para {
     color: hsl(178, 100%, 50%);
     padding: 0;
     margin: 0%;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.eth_icon {
+    margin-bottom: -3px;
+    padding-right: 4px;
+    height: 15px;
 }
 
 .day_left {
     margin: 0%;
     padding: 0;
+    font-size: 14px;
+    font-weight: 600;
     color: hsl(215, 51%, 70%);
 }
 
 /* hr */
 hr {
     width: 100%;
-    border-top: 1px double #8c8b8b;
-    background-color:hsl(210, 17%, 95%);
+    border: 0.5px solid hsl(215, 48%, 84%);
+    /* border: none; */
 }
 
 /* avatar img */
-.avatar-img {
-    height: 40px;
+.avatar_img {
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.avatar_img_para {
+    padding: 0 10px 10px 15px;
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: hsl(215, 51%, 70%);
+    letter-spacing: 1px;
+}
+
+.avatar_img_div {
+    margin-top: 8px;
+    margin-bottom: 22px;
+}
+
+.jules_wyvern {
+    color: white;
 }
