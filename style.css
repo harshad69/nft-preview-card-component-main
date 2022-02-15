@@ -31,6 +31,10 @@ body {
     background-color: hsl(216, 50%, 16%);
 }
 
+.margin_top {
+    margin-top: 120px;
+}
+
 .main_container {
     margin: 20px;
     padding: 0;
@@ -59,6 +63,7 @@ body {
     margin: 0;
     padding: 0;
     color: hsl(215, 51%, 70%);
+    font-weight: 600;
 }
 
 /* eth days left div */
@@ -120,4 +125,35 @@ hr {
 
 .jules_wyvern {
     color: white;
+}
+
+.line::after {
+    content: '';
+    background-color: rgba(139,172,218,0.1);
+    height: 0.09px;
+    width: 280px;
+    position: absolute;
+}
+
+.line_margin {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.padding_top {
+    padding-top: 100px;
+}
+
+.attribution { 
+    font-size: 14px; 
+    text-align: center; 
+    color: hsl(0, 0%, 100%); 
+}
+
+.linkAtEnd {
+    color: hsl(215, 51%, 70%);
+}
+
+.linkAtEnd:hover {
+    text-decoration: none;
 }
