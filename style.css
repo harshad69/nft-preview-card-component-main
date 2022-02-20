@@ -22,6 +22,13 @@ body {
     justify-content: space-between;
 }
 
+.items_center {
+    align-items: center;
+}
+
+.justify_center {
+    justify-content: center;
+}
 
 .container {
     width: 320px;
@@ -109,7 +116,7 @@ hr {
 }
 
 .avatar_img_para {
-    padding: 0 10px 10px 15px;
+    padding: 0 15px 10px;
     margin: 5px 0 0 0;
     font-size: 14px;
     font-weight: 600;
@@ -159,10 +166,12 @@ hr {
 
 .linkAtEnd:hover {
     text-decoration: none;
+    transition: all 0.5s ease-in-out;
 }
 
 .hover1:hover {
     color: hsl(178, 100%, 50%);
+    transition: all 0.5s ease-in;
 }
 
 .hover2:hover {
