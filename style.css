@@ -60,10 +60,11 @@ body {
     color: white;
 }
 
-.head1 h3 {
+.head1 h1 {
     font-weight: 600;
     letter-spacing: 1px;
     padding: 0;
+    font-size: 22px;
 }
 
 .p p {
